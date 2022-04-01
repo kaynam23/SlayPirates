@@ -4,6 +4,7 @@ using UnityEngine;
 
 // hi - kaz
 // h e l l o h e a t
+// kaz is straight today - nida
 public class test : MonoBehaviour
 {
     // Start is called before the first frame update
