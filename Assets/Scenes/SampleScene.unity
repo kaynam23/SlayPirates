@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 121034656}
   - component: {fileID: 121034657}
+  - component: {fileID: 121034658}
   m_Layer: 0
   m_Name: platform4
   m_TagString: Untagged
@@ -205,6 +206,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &121034658
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121034655}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2799999, y: 1.28, z: 0.2}
+  m_Center: {x: 0.00000023841858, y: 0.00000047683716, z: 0}
 --- !u!1 &293809675
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,6 +229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 293809676}
   - component: {fileID: 293809677}
+  - component: {fileID: 293809678}
   m_Layer: 0
   m_Name: platform7 (1)
   m_TagString: Untagged
@@ -287,6 +302,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &293809678
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293809675}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2799999, y: 1.28, z: 0.2}
+  m_Center: {x: 0.00000011920929, y: -0.0000009536743, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,6 +408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 535170678}
   - component: {fileID: 535170679}
+  - component: {fileID: 535170680}
   m_Layer: 0
   m_Name: platform7
   m_TagString: Untagged
@@ -395,7 +424,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535170677}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.25, y: 1, z: 0.32403708}
+  m_LocalPosition: {x: 0.313, y: 1.193, z: 0.32403708}
   m_LocalScale: {x: 0.7, y: 0.15, z: 0.1}
   m_Children: []
   m_Father: {fileID: 1608599912}
@@ -452,6 +481,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &535170680
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535170677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2799999, y: 1.28, z: 0.2}
+  m_Center: {x: 0.00000011920929, y: -0.0000009536743, z: 0}
 --- !u!1 &964495481
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,6 +504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 964495483}
   - component: {fileID: 964495482}
+  - component: {fileID: 964495484}
   m_Layer: 0
   m_Name: platform1
   m_TagString: Untagged
@@ -534,6 +577,19 @@ Transform:
   m_Father: {fileID: 1608599912}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &964495484
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964495481}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2799999, y: 1.28, z: 0.2}
+  m_Center: {x: 0.00000011920929, y: 0, z: 0}
 --- !u!1 &1052820931
 GameObject:
   m_ObjectHideFlags: 0
@@ -544,6 +600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1052820932}
   - component: {fileID: 1052820933}
+  - component: {fileID: 1052820934}
   m_Layer: 0
   m_Name: platform2
   m_TagString: Untagged
@@ -616,6 +673,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1052820934
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052820931}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2799999, y: 1.28, z: 0.2}
+  m_Center: {x: 0.000000059604645, y: 0, z: 0}
 --- !u!1 &1217144441
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,6 +778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1398849121}
   - component: {fileID: 1398849122}
+  - component: {fileID: 1398849123}
   m_Layer: 0
   m_Name: platform5
   m_TagString: Untagged
@@ -780,6 +851,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1398849123
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398849120}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2799999, y: 1.28, z: 0.2}
+  m_Center: {x: -0.00000011920929, y: -0.00000047683716, z: 0}
 --- !u!1 &1517151799
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,6 +874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1517151800}
   - component: {fileID: 1517151801}
+  - component: {fileID: 1517151802}
   m_Layer: 0
   m_Name: platform6
   m_TagString: Untagged
@@ -862,6 +947,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1517151802
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517151799}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2799999, y: 1.28, z: 0.2}
+  m_Center: {x: 0.00000023841858, y: 0, z: 0}
 --- !u!1 &1536706997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,6 +1110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2031118008}
   - component: {fileID: 2031118009}
+  - component: {fileID: 2031118010}
   m_Layer: 0
   m_Name: platform3
   m_TagString: Untagged
@@ -1084,3 +1183,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &2031118010
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031118007}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2799999, y: 1.28, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
