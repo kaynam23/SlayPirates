@@ -2,120 +2,276 @@ Unity Editor version:    2020.3.32f1 (12f8b0834f07)
 Branch:                  2020.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 11.4 (Build 20F71)
-Darwin version:          20.5.0
+macOS version:           Version 11.5.2 (Build 20G95)
+Darwin version:          20.6.0
 Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        8192 MB
+Running under Rosetta:   YES
+Available memory:        16384 MB
 Using pre-set license
 Pro License: NO
 
 COMMAND LINE ARGUMENTS:
-/Users/kayleenam/Random/Unity/2020.3.32f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/kayleenam/School/Unity/SlayPirates
+/Users/admin/Documents/GitHub/SlayPirates
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57239
-Successfully changed project path to: /Users/kayleenam/School/Unity/SlayPirates
-/Users/kayleenam/School/Unity/SlayPirates
+64000
+Successfully changed project path to: /Users/admin/Documents/GitHub/SlayPirates
+/Users/admin/Documents/GitHub/SlayPirates
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 56.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 40.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.32f1 (12f8b0834f07)
-[Subsystems] Discovering subsystems at path /Users/kayleenam/Random/Unity/2020.3.32f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/kayleenam/School/Unity/SlayPirates/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/admin/Documents/GitHub/SlayPirates/Assets
 GfxDevice: creating device client; threaded=0
-2022-04-01 20:02:44.730 Unity[8107:280507] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2022-04-01 20:02:44.730 Unity[8107:280507] Metal devices available: 1
-2022-04-01 20:02:44.730 Unity[8107:280507] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2022-04-01 20:02:44.730 Unity[8107:280507] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+2022-04-01 20:06:59.011 Unity[5265:138440] (null) preferred device: Apple M1 (high power)
+2022-04-01 20:06:59.011 Unity[5265:138440] Metal devices available: 1
+2022-04-01 20:06:59.011 Unity[5265:138440] 0: Apple M1 (high power)
+2022-04-01 20:06:59.012 Unity[5265:138440] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
-Mono path[0] = '/Users/kayleenam/Random/Unity/2020.3.32f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Users/kayleenam/Random/Unity/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Users/kayleenam/Random/Unity/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56107
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56265
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Users/kayleenam/Random/Unity/2020.3.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.004700 seconds.
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.32f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000455 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 60.46 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 41.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.224 seconds
+- Completed reload, in  1.252 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1224ms)
-		BeginReloadAssembly (280ms)
+	ReloadAssembly (1253ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (716ms)
-			LoadAssemblies (287ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1053ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
+			SetupTypeCache (178ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (269ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (532ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (345ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005963 seconds.
+Registered in 0.000240 seconds.
+Required property 'name' not set (Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Runtime/Unity.2D.PixelPerfect.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdPlugin.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Editor/Unity.2D.IK.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Tests/Unity.Mathematics.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Editor/Unity.2D.Sprite.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Editor/Unity.2D.PixelPerfect.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/Unity.2D.Psdimporter.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Editor/Unity.2D.Path.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Runtime/Unity.2D.IK.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Tests/Editor/Unity.2D.Common.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Runtime/Unity.2D.PixelPerfect.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Triangle/Unity.2D.Animation.Triangle.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Unity.2D.Animation.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Editor/Unity.2D.PixelPerfect.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/Unity.2D.Common.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Editor/Unity.2D.SpriteShape.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Tests/Editor/Unity.2D.SpriteShape.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Tests/Unity.2D.Path.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/Unity.2D.Common.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Tests/EditorTests/Unity.2D.Psdimporter.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Runtime/Unity.2D.SpriteShape.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Runtime/Unity.2D.PixelPerfect.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdPlugin.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Editor/Unity.2D.IK.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Tests/Unity.Mathematics.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Editor/Unity.2D.Sprite.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Editor/Unity.2D.PixelPerfect.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/Unity.2D.Psdimporter.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Editor/Unity.2D.Path.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Runtime/Unity.2D.IK.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Tests/Editor/Unity.2D.Common.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Runtime/Unity.2D.PixelPerfect.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Triangle/Unity.2D.Animation.Triangle.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Unity.2D.Animation.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Editor/Unity.2D.PixelPerfect.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/Unity.2D.Common.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Editor/Unity.2D.SpriteShape.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Tests/Editor/Unity.2D.SpriteShape.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Tests/Unity.2D.Path.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/Unity.2D.Common.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Tests/EditorTests/Unity.2D.Psdimporter.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Runtime/Unity.2D.SpriteShape.Runtime.asmdef)
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 49.24 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Runtime/Unity.2D.PixelPerfect.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdPlugin.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Editor/Unity.2D.IK.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Tests/Unity.Mathematics.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Editor/Unity.2D.Sprite.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Editor/Unity.2D.PixelPerfect.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/Unity.2D.Psdimporter.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Editor/Unity.2D.Path.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Runtime/Unity.2D.IK.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Tests/Editor/Unity.2D.Common.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Runtime/Unity.2D.PixelPerfect.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Triangle/Unity.2D.Animation.Triangle.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Unity.2D.Animation.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Editor/Unity.2D.PixelPerfect.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/Unity.2D.Common.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Editor/Unity.2D.SpriteShape.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Tests/Editor/Unity.2D.SpriteShape.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Tests/Unity.2D.Path.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/Unity.2D.Common.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Tests/EditorTests/Unity.2D.Psdimporter.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Runtime/Unity.2D.SpriteShape.Runtime.asmdef)
 Mono: successfully reloaded assembly
-- Completed reload, in  1.620 seconds
+- Completed reload, in  1.989 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1623ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (1991ms)
+		BeginReloadAssembly (262ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (33ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1343ms)
-			LoadAssemblies (199ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1633ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (443ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (454ms)
+			RebuildScriptCaches (443ms)
+			SetupLoadedEditorAssemblies (692ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (212ms)
+				ProcessInitializeOnLoadAttributes (450ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000704 seconds.
+Validating Project structure ... 0.000176 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.000418 seconds.
+Upgrading shader files ...0.000192 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -124,19 +280,70 @@ Application.AssetDatabase.Refresh Start
 Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
-Launching external process: /Users/kayleenam/Random/Unity/2020.3.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
+Required property 'name' not set (Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Runtime/Unity.2D.PixelPerfect.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdPlugin.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Editor/Unity.2D.IK.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Tests/Unity.Mathematics.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Editor/Unity.2D.Sprite.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Editor/Unity.2D.PixelPerfect.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/Unity.2D.Psdimporter.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Editor/Unity.2D.Path.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Runtime/Unity.2D.IK.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Tests/Editor/Unity.2D.Common.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Runtime/Unity.2D.PixelPerfect.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Triangle/Unity.2D.Animation.Triangle.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Unity.2D.Animation.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Editor/Unity.2D.PixelPerfect.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/Unity.2D.Common.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Editor/Unity.2D.SpriteShape.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Tests/Editor/Unity.2D.SpriteShape.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Tests/Unity.2D.Path.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/Unity.2D.Common.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Tests/EditorTests/Unity.2D.Psdimporter.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Runtime/Unity.2D.SpriteShape.Runtime.asmdef)
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2202 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.0 MB.
-System memory in use after: 211.1 MB.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.2 MB.
+System memory in use after: 174.3 MB.
 
-Unloading 105 unused Assets to reduce memory usage. Loaded Objects now: 2672.
-Total: 4.106718 ms (FindLiveObjects: 0.271933 ms CreateObjectMapping: 0.136990 ms MarkObjects: 3.096208 ms  DeleteObjects: 0.600798 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2660.
+Total: 2.383916 ms (FindLiveObjects: 0.326000 ms CreateObjectMapping: 0.044667 ms MarkObjects: 1.584292 ms  DeleteObjects: 0.428208 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,36 +357,259 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/IMG_0446.jpg
-  artifactKey: Guid(f51e9f7294af345f89d6b1930c1246f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMG_0446.jpg using Guid(f51e9f7294af345f89d6b1930c1246f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42e7ab1babd3cd1afdf6e76f2cf9d07') in 1.802169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/IMG_0445.jpg
-  artifactKey: Guid(371dc597f6fe44856bfb3e638f90e10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMG_0445.jpg using Guid(371dc597f6fe44856bfb3e638f90e10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17c9704e294563fd7b2075a1a57af78') in 0.022334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.371808 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.005841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.378585 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc0cda23099672007fc217e5a164ada') in 0.005354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.654000 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.001729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.603909 seconds.
   path: Assets/Sprites
   artifactKey: Guid(58915877100a74124b9288c9d4c2b74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(58915877100a74124b9288c9d4c2b74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4980348d0d0a26df8fd36057be9aa24a') in 0.006038 seconds 
+Start importing Assets/Sprites using Guid(58915877100a74124b9288c9d4c2b74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003445 seconds  code(4) message(Build asset version error: assets/sprites.meta in SourceAssetDB has modification time of '2022-04-02T00:03:37Z' while content on disk has modification time of '2022-04-02T00:06:46Z')
+  ERROR: Build asset version error: assets/sprites.meta in SourceAssetDB has modification time of '2022-04-02T00:03:37Z' while content on disk has modification time of '2022-04-02T00:06:46Z'
+========================================================================
+Received Import Request.
+  Time since last request: 99.457795 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000396 seconds  code(4) message(Build asset version error: assets/scenes/samplescene.unity in SourceAssetDB has modification time of '2022-04-02T00:03:28Z' while content on disk has modification time of '2022-04-02T00:06:46Z')
+  ERROR: Build asset version error: assets/scenes/samplescene.unity in SourceAssetDB has modification time of '2022-04-02T00:03:28Z' while content on disk has modification time of '2022-04-02T00:06:46Z'
+========================================================================
+Received Import Request.
+  Time since last request: 3.637208 seconds.
+  path: Assets/Sprites/IMG_0445.jpg
+  artifactKey: Guid(371dc597f6fe44856bfb3e638f90e10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/IMG_0445.jpg using Guid(371dc597f6fe44856bfb3e638f90e10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.627154 seconds  code(4) message(Build asset version error: assets/sprites/img_0445.jpg in SourceAssetDB has modification time of '2022-04-01T22:05:17Z' while content on disk has modification time of '2022-04-02T00:06:46Z')
+  ERROR: Build asset version error: assets/sprites/img_0445.jpg in SourceAssetDB has modification time of '2022-04-01T22:05:17Z' while content on disk has modification time of '2022-04-02T00:06:46Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.194522 seconds.
+  path: Assets/Sprites/IMG_0446.jpg
+  artifactKey: Guid(f51e9f7294af345f89d6b1930c1246f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/IMG_0446.jpg using Guid(f51e9f7294af345f89d6b1930c1246f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018006 seconds  code(4) message(Build asset version error: assets/sprites/img_0446.jpg in SourceAssetDB has modification time of '2022-04-01T22:10:23Z' while content on disk has modification time of '2022-04-02T00:06:46Z')
+  ERROR: Build asset version error: assets/sprites/img_0446.jpg in SourceAssetDB has modification time of '2022-04-01T22:10:23Z' while content on disk has modification time of '2022-04-02T00:06:46Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.878199 seconds.
+  path: Assets/Sprites/IMG_0447.jpg
+  artifactKey: Guid(1e84297b405e744c3ad404e84371f0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/IMG_0447.jpg using Guid(1e84297b405e744c3ad404e84371f0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018534 seconds  code(4) message(Build asset version error: assets/sprites/img_0447.jpg in SourceAssetDB has modification time of '2022-04-01T23:39:02Z' while content on disk has modification time of '2022-04-02T00:06:46Z')
+  ERROR: Build asset version error: assets/sprites/img_0447.jpg in SourceAssetDB has modification time of '2022-04-01T23:39:02Z' while content on disk has modification time of '2022-04-02T00:06:46Z'
+========================================================================
+Received Import Request.
+  Time since last request: 42.590100 seconds.
+  path: 
+  artifactKey: Guid(3d6da386285f640adba1ff518b84deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(3d6da386285f640adba1ff518b84deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000036 seconds  code(3) message(Unknown asset with GUID '3d6da386285f640adba1ff518b84deea')
+  ERROR: Unknown asset with GUID '3d6da386285f640adba1ff518b84deea'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000340 seconds.
+Required property 'name' not set (Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Runtime/Unity.2D.PixelPerfect.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdPlugin.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Editor/Unity.2D.IK.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Tests/Unity.Mathematics.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Editor/Unity.2D.Sprite.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Editor/Unity.2D.PixelPerfect.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/Unity.2D.Psdimporter.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Editor/Unity.2D.Path.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Runtime/Unity.2D.IK.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Tests/Editor/Unity.2D.Common.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Runtime/Unity.2D.PixelPerfect.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Triangle/Unity.2D.Animation.Triangle.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Unity.2D.Animation.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Editor/Unity.2D.PixelPerfect.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/Unity.2D.Common.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Editor/Unity.2D.SpriteShape.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Tests/Editor/Unity.2D.SpriteShape.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Tests/Unity.2D.Path.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/Unity.2D.Common.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Tests/EditorTests/Unity.2D.Psdimporter.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Runtime/Unity.2D.SpriteShape.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Runtime/Unity.2D.PixelPerfect.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdPlugin.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Editor/Unity.2D.IK.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Tests/Unity.Mathematics.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Editor/Unity.2D.Sprite.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Editor/Unity.2D.PixelPerfect.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/Unity.2D.Psdimporter.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Editor/Unity.2D.Path.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Runtime/Unity.2D.IK.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Tests/Editor/Unity.2D.Common.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Runtime/Unity.2D.PixelPerfect.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Triangle/Unity.2D.Animation.Triangle.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Unity.2D.Animation.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Editor/Unity.2D.PixelPerfect.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/Unity.2D.Common.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Editor/Unity.2D.SpriteShape.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Tests/Editor/Unity.2D.SpriteShape.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Tests/Unity.2D.Path.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/Unity.2D.Common.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Tests/EditorTests/Unity.2D.Psdimporter.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Runtime/Unity.2D.SpriteShape.Runtime.asmdef)
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Packages/com.unity.2d.animation/Editor/Unity.2D.Animation.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Runtime/Unity.2D.PixelPerfect.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Editor/Unity.2D.Tilemap.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdPlugin.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Tests/Editor/Unity.2D.Animation.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.tilemap/Tests/Editor/Unity.2D.Tilemap.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Runtime/UnityEngine.UI.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Editor/Unity.2D.IK.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Tests/Unity.Mathematics.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Editor/Unity.2D.Sprite.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Editor/Unity.2D.PixelPerfect.Editor.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Editor/Unity.2D.Psdimporter.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Editor/Unity.2D.Path.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/InternalBridge/InternalBridgeDef.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Editor/UnityEditor.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.sprite/Tests/Editor/Unity.2D.Sprite.Package.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics/Unity.Mathematics.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/IK/Runtime/Unity.2D.IK.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Tests/Editor/Unity.2D.Common.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Tests/Runtime/Unity.2D.PixelPerfect.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Triangle/Unity.2D.Animation.Triangle.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.animation/Runtime/Unity.2D.Animation.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.pixel-perfect/Editor/Unity.2D.PixelPerfect.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.mathematics/Unity.Mathematics.Editor/Unity.Mathematics.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Runtime/Unity.2D.Common.Runtime.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Editor/Unity.2D.SpriteShape.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Tests/Editor/Unity.2D.SpriteShape.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.ugui/Tests/Editor/UnityEditor.UI.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.path/Tests/Unity.2D.Path.Tests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.common/Editor/Unity.2D.Common.Editor.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.psdimporter/Tests/EditorTests/Unity.2D.Psdimporter.EditorTests.asmdef)
+Required property 'name' not set (Packages/com.unity.2d.spriteshape/Runtime/Unity.2D.SpriteShape.Runtime.asmdef)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.451 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1452ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1185ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (611ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (468ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.5 MB.
+System memory in use after: 177.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2669.
+Total: 1.701875 ms (FindLiveObjects: 0.084500 ms CreateObjectMapping: 0.040125 ms MarkObjects: 1.448083 ms  DeleteObjects: 0.128292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.525235 seconds.
+  path: 
+  artifactKey: Guid(3d6da386285f640adba1ff518b84deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(3d6da386285f640adba1ff518b84deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000050 seconds  code(3) message(Unknown asset with GUID '3d6da386285f640adba1ff518b84deea')
+  ERROR: Unknown asset with GUID '3d6da386285f640adba1ff518b84deea'
