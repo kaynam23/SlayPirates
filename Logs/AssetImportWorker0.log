@@ -174,3 +174,57 @@ Received Import Request.
   path: Assets/Scenes/Level1.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2996e6cc9127b88ae51c83a5d937c4') in 0.000815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.744720 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(8e65a2c8076c242f99291f3efc4f1e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(8e65a2c8076c242f99291f3efc4f1e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd17480ad8e681ccf51bf65ffbf19c5f') in 0.001666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.471147 seconds.
+  path: Assets/Sprites/IMG_0448.jpg
+  artifactKey: Guid(3d7625941e8394afa9fc12430b109ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/IMG_0448.jpg using Guid(3d7625941e8394afa9fc12430b109ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76da05880cb01b37915c239fff5c61ab') in 0.581210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.722296 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(8e65a2c8076c242f99291f3efc4f1e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(8e65a2c8076c242f99291f3efc4f1e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26705c8cb82695e4df6def72275364b6') in 0.001114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.553297 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(8e65a2c8076c242f99291f3efc4f1e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(8e65a2c8076c242f99291f3efc4f1e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91939541698882ca1ffdeea183e2e5c') in 0.001851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.184261 seconds.
+  path: Assets/Sprites/Ground&Stone
+  artifactKey: Guid(400d6fe015efc4932b2978bbbf90c9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ground&Stone using Guid(400d6fe015efc4932b2978bbbf90c9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be4ebb6ad210b3601dd62d0c07473b7') in 0.001400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.345306 seconds.
+  path: Assets/Sprites/Ground&Stone/Ground
+  artifactKey: Guid(5bcbc6802e73a484db215abed575dfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ground&Stone/Ground using Guid(5bcbc6802e73a484db215abed575dfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c70a3be7af4790b82852418fb68253') in 0.001354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.333133 seconds.
+  path: Assets/Sprites/Ground&Stone/Stone/ground1.png
+  artifactKey: Guid(51a3a903a8053472d973c9252fe96433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ground&Stone/Stone/ground1.png using Guid(51a3a903a8053472d973c9252fe96433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f33a17a5802413ccc8747ed0fc5baa') in 0.485257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.258615 seconds.
+  path: Assets/Sprites/Ground&Stone/Stone/ground2.png
+  artifactKey: Guid(e51cf59b8f6134ea796baaceabd16c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ground&Stone/Stone/ground2.png using Guid(e51cf59b8f6134ea796baaceabd16c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1507f9c5eaca2620beeaf7b4d85bdc27') in 0.013733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.892268 seconds.
+  path: Assets/Sprites/Ground&Stone/Ground/ground1.png
+  artifactKey: Guid(cad7817dd671f46d0bd1f6e2276139d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ground&Stone/Ground/ground1.png using Guid(cad7817dd671f46d0bd1f6e2276139d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d2fc763000d87f601c76b802eaec14') in 0.021491 seconds 
