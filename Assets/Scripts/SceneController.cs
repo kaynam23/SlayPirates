@@ -23,4 +23,8 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("Level3");
     }
+    public void LoadStory2()
+    {
+        SceneManager.LoadScene("Story2");
+    }
 }
