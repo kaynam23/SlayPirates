@@ -1050,7 +1050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &990047709
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1955,7 +1955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1430517838}
-  image: {fileID: 0}
+  image: {fileID: 990047708}
 --- !u!1001 &1909095970
 PrefabInstance:
   m_ObjectHideFlags: 0
