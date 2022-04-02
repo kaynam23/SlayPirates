@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class ShowButton : MonoBehaviour
 {
+    public GameObject button;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -15,4 +16,11 @@ public class ShowButton : MonoBehaviour
     {
         
     }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        button.SetActive(true);
+
+        
+    } 
 }
