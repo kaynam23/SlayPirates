@@ -26,11 +26,6 @@ public class PlayerController : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector2.right * horizontalInput * Time.deltaTime * speed); 
-        if (Input.GetKeyDown(KeyCode.UpArrow) && isOnGround)
-        {
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            isOnGround = false;
-        }
         if (Input.GetKeyDown(KeyCode.LeftArrow)) {
             rb.AddForce(Vector2.left * 7, ForceMode2D.Impulse);
         }
