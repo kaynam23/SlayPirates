@@ -32,10 +32,10 @@ public class PlayerController : MonoBehaviour
             isOnGround = false;
         }
         if (Input.GetKeyDown(KeyCode.LeftArrow)) {
-            rb.AddForce(Vector2.left * 10, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.left * 7, ForceMode2D.Impulse);
         }
         if (Input.GetKeyDown(KeyCode.RightArrow)) {
-            rb.AddForce(Vector2.right * 10, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.right * 7, ForceMode2D.Impulse);
         }
     }
 
