@@ -27,10 +27,10 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector2.right * horizontalInput * Time.deltaTime * speed); 
         if (Input.GetKeyDown(KeyCode.LeftArrow)) {
-            rb.AddForce(Vector2.left * 1, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.left / 4, ForceMode2D.Impulse);
         }
         if (Input.GetKeyDown(KeyCode.RightArrow)) {
-            rb.AddForce(Vector2.right * 1, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.right / 4, ForceMode2D.Impulse);
         }
     }
 

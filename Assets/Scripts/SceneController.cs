@@ -27,4 +27,8 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("Story2");
     }
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("Intro");
+    }
 }
